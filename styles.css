@@ -1,0 +1,114 @@
+﻿body{margin:50px;font-weight: bold; align:center;color:#9FF3FF;font-family:"Microsoft JhengHei";}
+h1{font-weight: bold;font-family:"Microsoft JhengHei"; color:#144970;text-shadow: 2px 2px 8px #491D80;}
+a{color:#AA87FF;}
+
+#header{position: relative;font-size:30px;text-align:center;}
+#作品1{width:900px;float:right;}
+#作品2{width:900px;float:right;}
+#作品3{width:900px;float:right;}
+#作品4{width:900px;float:right;}
+#作品5{width:900px;float:right;}
+#作品6{width:900px;float:right;}
+#作品7{width:900px;float:right;}
+#作品8{width:900px;float:right;}
+
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#wrapper {
+height: auto;
+position: relative;
+  left: 150px;
+width: 1200px;
+margin: 0; 
+}
+
+.fadein{
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+} 
+
+img{
+  border-radius:10%;
+  text-align: justify;
+  width:330px;
+}
+
+.img{
+   display: block;
+   margin: 0;
+}
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+.img{
+  position: relative;
+  right: 400px;
+  transition: transform .2s;
+  margin: 0;
+}
+.img:hover {
+  transform: scale(1.1);
+}
+
+.description{
+  position: relative;
+  bottom: 400px;
+}
+
+.tab {
+    position: relative;
+    left: 220px;
+    overflow: hidden;
+}
+
+.tab button {
+  position: relative;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 25px;
+  font-weight: bold;
+  color:#184363;
+  text-shadow: 2px 2px 8px #491D80;
+}
+
+.tab button:hover {
+  position: relative;
+  background-color: #ddd;
+}
+
+.tab button.active {
+  position: relative;
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display:none;
+}
+
